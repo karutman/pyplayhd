@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.pvplayhd"
+       name="PVPlayHD"
+       version="1.0"
+       provider-name="tagara">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en">PVPlayHD</summary>
+    <summary lang="th">PVPlayHD</summary>
+    <description lang="en">Private only, no support</description>
+    <description lang="th">ส่วนตัวเท่านั้น</description>
+  </extension>
+</addon>
+</addons>
